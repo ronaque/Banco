@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/isaqu/Documents/Escolaridade/Projetos de Programação/C/Banco
+# Install script for directory: C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Banco")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/isaqu/Documents/Escolaridade/Projetos de Programação/C/Banco/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

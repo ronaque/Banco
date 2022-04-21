@@ -2,6 +2,42 @@
 	"entries" : 
 	[
 		{
+			"name" : "Banco_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build"
+		},
+		{
+			"name" : "Banco_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Banco_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco"
+		},
+		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -55,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/isaqu/Documents/Escolaridade/Projetos de Programa\u00e7\u00e3o/C/Banco/build"
+			"value" : "c:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -647,7 +683,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/isaqu/Documents/Escolaridade/Projetos de Programa\u00e7\u00e3o/C/Banco"
+			"value" : "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +695,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/Project"
+			"value" : "C:/Program Files (x86)/Banco"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -879,7 +915,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Project"
+			"value" : "Banco"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1256,42 +1292,6 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
-		},
-		{
-			"name" : "Project_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/isaqu/Documents/Escolaridade/Projetos de Programa\u00e7\u00e3o/C/Banco/build"
-		},
-		{
-			"name" : "Project_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "Project_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/isaqu/Documents/Escolaridade/Projetos de Programa\u00e7\u00e3o/C/Banco"
 		}
 	],
 	"kind" : "cache",

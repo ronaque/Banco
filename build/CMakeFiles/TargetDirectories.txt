@@ -1,2 +1,3 @@
-C:/Users/isaqu/Documents/Escolaridade/Projetos de Programação/C/Banco/build/CMakeFiles/edit_cache.dir
-C:/Users/isaqu/Documents/Escolaridade/Projetos de Programação/C/Banco/build/CMakeFiles/rebuild_cache.dir
+C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/CMakeFiles/Banco.dir
+C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/CMakeFiles/edit_cache.dir
+C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/CMakeFiles/rebuild_cache.dir
