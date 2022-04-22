@@ -11,7 +11,7 @@
 
 #include "Cadastro.h"
 
-void cadastrar(FILE *database, int numeroDeUsuarios)
+void cadastrar(char* nome, char* senha)
 {
     printf("Cadastrando\n");
     fprintf(database, "Usuario %d\n", numeroDeUsuarios + 1);
