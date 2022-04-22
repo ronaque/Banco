@@ -29,6 +29,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake"
   "../CMakeLists.txt"
+  "../Cadastro/CMakeLists.txt"
   "CMakeFiles/3.23.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.23.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.23.1/CMakeRCCompiler.cmake"
@@ -44,9 +45,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Cadastro/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Banco.dir/DependInfo.cmake"
+  "Cadastro/CMakeFiles/Cadastro.dir/DependInfo.cmake"
   )

@@ -1,0 +1,9 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "banco.h": "c",
+        "stdio.h": "c",
+        "cadastro.h": "c",
+        "stdlib.h": "c"
+    }
+}

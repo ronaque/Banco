@@ -1,5 +1,6 @@
-CMakeFiles/Banco.dir/Banco.c.obj: \
- C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Banco.c \
+Cadastro/CMakeFiles/Cadastro.dir/Cadastro.c.obj: \
+ C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Cadastro/Cadastro.c \
+ C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Cadastro/Cadastro.h \
  c:\mingw\x86_64-w64-mingw32\include\stdio.h \
  c:\mingw\x86_64-w64-mingw32\include\corecrt_stdio_config.h \
  c:\mingw\x86_64-w64-mingw32\include\corecrt.h \
@@ -23,6 +24,4 @@ CMakeFiles/Banco.dir/Banco.c.obj: \
  c:\mingw\x86_64-w64-mingw32\include\errno.h \
  c:\mingw\x86_64-w64-mingw32\include\string.h \
  c:\mingw\x86_64-w64-mingw32\include\sec_api\string_s.h \
- c:\mingw\x86_64-w64-mingw32\include\ctype.h \
- C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Banco.h \
- C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Cadastro/Cadastro.h
+ c:\mingw\x86_64-w64-mingw32\include\ctype.h

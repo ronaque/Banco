@@ -1,7 +1,12 @@
 [
 {
   "directory": "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build",
-  "command": "C:/MinGW/bin/gcc.exe   -g -o CMakeFiles/Banco.dir/Banco.c.obj -c C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Banco.c",
+  "command": "C:/MinGW/bin/gcc.exe  @CMakeFiles/Banco.dir/includes_C.rsp -g -o CMakeFiles/Banco.dir/Banco.c.obj -c C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Banco.c",
   "file": "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Banco.c"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/Cadastro",
+  "command": "C:/MinGW/bin/gcc.exe   -g -o CMakeFiles/Cadastro.dir/Cadastro.c.obj -c C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Cadastro/Cadastro.c",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Cadastro/Cadastro.c"
 }
 ]

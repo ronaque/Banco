@@ -70,6 +70,7 @@ include CMakeFiles/Banco.dir/progress.make
 include CMakeFiles/Banco.dir/flags.make
 
 CMakeFiles/Banco.dir/Banco.c.obj: CMakeFiles/Banco.dir/flags.make
+CMakeFiles/Banco.dir/Banco.c.obj: CMakeFiles/Banco.dir/includes_C.rsp
 CMakeFiles/Banco.dir/Banco.c.obj: ../Banco.c
 CMakeFiles/Banco.dir/Banco.c.obj: CMakeFiles/Banco.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Banco.dir/Banco.c.obj"
@@ -92,6 +93,7 @@ Banco_EXTERNAL_OBJECTS =
 
 Banco.exe: CMakeFiles/Banco.dir/Banco.c.obj
 Banco.exe: CMakeFiles/Banco.dir/build.make
+Banco.exe: Cadastro/libCadastro.a
 Banco.exe: CMakeFiles/Banco.dir/linklibs.rsp
 Banco.exe: CMakeFiles/Banco.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Banco.exe"

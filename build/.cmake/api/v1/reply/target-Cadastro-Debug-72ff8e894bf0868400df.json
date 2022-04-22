@@ -1,11 +1,9 @@
 {
+	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "Banco.exe"
-		},
-		{
-			"path" : "Banco.pdb"
+			"path" : "Cadastro/libCadastro.a"
 		}
 	],
 	"backtrace" : 1,
@@ -13,11 +11,11 @@
 	{
 		"commands" : 
 		[
-			"add_executable"
+			"add_library"
 		],
 		"files" : 
 		[
-			"CMakeLists.txt"
+			"Cadastro/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -27,7 +25,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 5,
+				"line" : 1,
 				"parent" : 0
 			}
 		]
@@ -48,32 +46,13 @@
 			]
 		}
 	],
-	"id" : "Banco::@6890427a1f51a3e7e1df",
-	"link" : 
-	{
-		"commandFragments" : 
-		[
-			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
-			{
-				"fragment" : "",
-				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
-			}
-		],
-		"language" : "C"
-	},
-	"name" : "Banco",
-	"nameOnDisk" : "Banco.exe",
+	"id" : "Cadastro::@50da2364cff7be4b2570",
+	"name" : "Cadastro",
+	"nameOnDisk" : "libCadastro.a",
 	"paths" : 
 	{
-		"build" : ".",
-		"source" : "."
+		"build" : "Cadastro",
+		"source" : "Cadastro"
 	},
 	"sourceGroups" : 
 	[
@@ -90,9 +69,9 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Banco.c",
+			"path" : "Cadastro/Cadastro.c",
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "EXECUTABLE"
+	"type" : "STATIC_LIBRARY"
 }

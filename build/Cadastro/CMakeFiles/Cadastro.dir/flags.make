@@ -4,7 +4,7 @@
 # compile C with C:/MinGW/bin/gcc.exe
 C_DEFINES = 
 
-C_INCLUDES = @CMakeFiles/Banco.dir/includes_C.rsp
+C_INCLUDES = 
 
 C_FLAGS = -g
 
