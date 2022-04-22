@@ -27,7 +27,8 @@ CMakeFiles/Banco.dir/Banco.c.obj: ../Banco.c \
   C:/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
   C:/MinGW/x86_64-w64-mingw32/include/ctype.h \
   ../Banco.h \
-  ../Cadastro/Cadastro.h
+  ../Cadastro/Cadastro.h \
+  ../Tratamentos/Tratamentos.h
 
 
 C:/MinGW/x86_64-w64-mingw32/include/vadefs.h:
@@ -83,3 +84,5 @@ C:/MinGW/x86_64-w64-mingw32/include/ctype.h:
 ../Banco.h:
 
 ../Cadastro/Cadastro.h:
+
+../Tratamentos/Tratamentos.h:

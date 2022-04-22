@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco
+# Install script for directory: C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Tratamentos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,20 +37,3 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "C:/MinGW/bin/objdump.exe")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/Cadastro/cmake_install.cmake")
-  include("C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/Tratamentos/cmake_install.cmake")
-
-endif()
-
-if(CMAKE_INSTALL_COMPONENT)
-  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
-else()
-  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
-endif()
-
-string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
-       "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/${CMAKE_INSTALL_MANIFEST}"
-     "${CMAKE_INSTALL_MANIFEST_CONTENT}")

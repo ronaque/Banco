@@ -1,0 +1,2 @@
+C:/MinGW/bin/ar.exe qc libTratamentos.a CMakeFiles/Tratamentos.dir/Tratamentos.c.obj
+C:/MinGW/bin/ranlib.exe libTratamentos.a

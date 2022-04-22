@@ -15,19 +15,6 @@
 #include <ctype.h>
 #include "Banco.h"
 
-char *retirarEnter(char *string)
-{
-    int i = 0;
-    for (i; i < strlen(string); i++)
-    {
-        if (string[i] == '\n')
-        {
-            string[i] = '\0';
-        }
-    }
-    return string;
-}
-
 
 int main(int argc, char const *argv[])
 {

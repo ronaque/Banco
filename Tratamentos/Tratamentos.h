@@ -1,5 +1,5 @@
 /**
- * @file Banco.h
+ * @file Tratamentos.h
  * @author your name (you@domain.com)
  * @brief 
  * @version 0.1
@@ -9,5 +9,4 @@
  * 
  */
 
-#include "Cadastro.h"
-#include "Tratamentos.h"
+char *retirarEnter(char *string);

@@ -65,15 +65,18 @@ CMAKE_BINARY_DIR = C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao
 # The main recursive "all" target.
 all: CMakeFiles/Banco.dir/all
 all: Cadastro/all
+all: Tratamentos/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: Cadastro/preinstall
+preinstall: Tratamentos/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Banco.dir/clean
 clean: Cadastro/clean
+clean: Tratamentos/clean
 .PHONY : clean
 
 #=============================================================================
@@ -92,10 +95,26 @@ Cadastro/clean: Cadastro/CMakeFiles/Cadastro.dir/clean
 .PHONY : Cadastro/clean
 
 #=============================================================================
+# Directory level rules for directory Tratamentos
+
+# Recursive "all" directory target.
+Tratamentos/all: Tratamentos/CMakeFiles/Tratamentos.dir/all
+.PHONY : Tratamentos/all
+
+# Recursive "preinstall" directory target.
+Tratamentos/preinstall:
+.PHONY : Tratamentos/preinstall
+
+# Recursive "clean" directory target.
+Tratamentos/clean: Tratamentos/CMakeFiles/Tratamentos.dir/clean
+.PHONY : Tratamentos/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Banco.dir
 
 # All Build rule for target.
 CMakeFiles/Banco.dir/all: Cadastro/CMakeFiles/Cadastro.dir/all
+CMakeFiles/Banco.dir/all: Tratamentos/CMakeFiles/Tratamentos.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Banco.dir/build.make CMakeFiles/Banco.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Banco.dir/build.make CMakeFiles/Banco.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/CMakeFiles --progress-num=1,2 "Built target Banco"
@@ -103,7 +122,7 @@ CMakeFiles/Banco.dir/all: Cadastro/CMakeFiles/Cadastro.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Banco.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Banco.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/CMakeFiles 0
 .PHONY : CMakeFiles/Banco.dir/rule
@@ -142,6 +161,32 @@ Cadastro: Cadastro/CMakeFiles/Cadastro.dir/rule
 Cadastro/CMakeFiles/Cadastro.dir/clean:
 	$(MAKE) $(MAKESILENT) -f Cadastro/CMakeFiles/Cadastro.dir/build.make Cadastro/CMakeFiles/Cadastro.dir/clean
 .PHONY : Cadastro/CMakeFiles/Cadastro.dir/clean
+
+#=============================================================================
+# Target rules for target Tratamentos/CMakeFiles/Tratamentos.dir
+
+# All Build rule for target.
+Tratamentos/CMakeFiles/Tratamentos.dir/all:
+	$(MAKE) $(MAKESILENT) -f Tratamentos/CMakeFiles/Tratamentos.dir/build.make Tratamentos/CMakeFiles/Tratamentos.dir/depend
+	$(MAKE) $(MAKESILENT) -f Tratamentos/CMakeFiles/Tratamentos.dir/build.make Tratamentos/CMakeFiles/Tratamentos.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/CMakeFiles --progress-num=5,6 "Built target Tratamentos"
+.PHONY : Tratamentos/CMakeFiles/Tratamentos.dir/all
+
+# Build rule for subdir invocation for target.
+Tratamentos/CMakeFiles/Tratamentos.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tratamentos/CMakeFiles/Tratamentos.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/CMakeFiles 0
+.PHONY : Tratamentos/CMakeFiles/Tratamentos.dir/rule
+
+# Convenience name for target.
+Tratamentos: Tratamentos/CMakeFiles/Tratamentos.dir/rule
+.PHONY : Tratamentos
+
+# clean rule for target.
+Tratamentos/CMakeFiles/Tratamentos.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Tratamentos/CMakeFiles/Tratamentos.dir/build.make Tratamentos/CMakeFiles/Tratamentos.dir/clean
+.PHONY : Tratamentos/CMakeFiles/Tratamentos.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

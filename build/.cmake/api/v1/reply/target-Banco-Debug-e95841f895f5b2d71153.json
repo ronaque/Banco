@@ -35,13 +35,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 16,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 19,
+				"line" : 22,
 				"parent" : 0
 			}
 		]
@@ -64,6 +64,10 @@
 				{
 					"backtrace" : 3,
 					"path" : "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Cadastro"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Tratamentos"
 				}
 			],
 			"language" : "C",
@@ -78,6 +82,10 @@
 		{
 			"backtrace" : 2,
 			"id" : "Cadastro::@50da2364cff7be4b2570"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Tratamentos::@473a0e802f48dc3e6d6c"
 		}
 	],
 	"id" : "Banco::@6890427a1f51a3e7e1df",
@@ -96,6 +104,11 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "Cadastro/libCadastro.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "Tratamentos/libTratamentos.a",
 				"role" : "libraries"
 			},
 			{
