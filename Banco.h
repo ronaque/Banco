@@ -9,5 +9,13 @@
  * 
  */
 
+
 #include "Cadastro.h"
 #include "Tratamentos.h"
+#include "Database.h"
+
+#ifndef DATABASE
+#define DATABASE
+
+char database[numeroDeUsuariosMax][2][numeroDeCaracteresMax];
+#endif

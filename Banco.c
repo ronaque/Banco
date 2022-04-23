@@ -13,43 +13,49 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
+
 #include "Banco.h"
 
+FILE *arquivoDatabase;
 
 int main(int argc, char const *argv[])
 {
+    
+    //Carregamento do banco de dados do arquivo
+    database = carregaDatabase(arquivoDatabase);
+
     //Contadores
-    int i = 0;
+    // int i = 0;
 
-    int numeroUsuarios;
+    // int numeroUsuarios;
 
-    char acao[20];
+    // char acao[20];
 
-    FILE *database = fopen("database", "a+");
-    numeroUsuarios = fgetc(database) - '0';
-    fclose(database);
+    // FILE *database = fopen("database", "a+");
+    // numeroUsuarios = fgetc(database) - '0';
+    // fclose(database);
 
-    printf("Deseja logar ou cadastrar?\n");
-    fgets(acao, 20, stdin);
+    // printf("Deseja logar ou cadastrar?\n");
+    // fgets(acao, 20, stdin);
 
-    retirarEnter(acao);
-    for (i; i < strlen(acao); i++)
-    {
-        acao[i] = tolower(acao[i]);
-    }
+    // retirarEnter(acao);
+    // for (i; i < strlen(acao); i++)
+    // {
+    //     acao[i] = tolower(acao[i]);
+    // }
 
-    if (strcmp(acao, "logar") == 0)
-    {
-        printf("Logando");
-    }
-    else if (strcmp(acao, "cadastrar") == 0)
-    {
-        cadastrar(database, numeroUsuarios);
-    }
-    else
-    {
-        printf("Ação indisponivel");
-    }
+    // if (strcmp(acao, "logar") == 0)
+    // {
+    //     printf("Logando");
+    // }
+    // else if (strcmp(acao, "cadastrar") == 0)
+    // {
+    //     cadastrar(database, numeroUsuarios);
+    // }
+    // else
+    // {
+    //     printf("Ação indisponivel");
+    // }
 
     return 0;
 }
