@@ -1,0 +1,2 @@
+C:/MinGW/bin/ar.exe qc libData.a CMakeFiles/Data.dir/Database.c.obj
+C:/MinGW/bin/ranlib.exe libData.a

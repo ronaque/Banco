@@ -30,6 +30,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake"
   "../CMakeLists.txt"
   "../Cadastro/CMakeLists.txt"
+  "../Data/CMakeLists.txt"
   "../Tratamentos/CMakeLists.txt"
   "CMakeFiles/3.23.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.23.1/CMakeCXXCompiler.cmake"
@@ -48,6 +49,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "Cadastro/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Tratamentos/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Data/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -55,4 +57,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Banco.dir/DependInfo.cmake"
   "Cadastro/CMakeFiles/Cadastro.dir/DependInfo.cmake"
   "Tratamentos/CMakeFiles/Tratamentos.dir/DependInfo.cmake"
+  "Data/CMakeFiles/Data.dir/DependInfo.cmake"
   )

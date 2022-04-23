@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Cadastro/libCadastro.a"
+			"path" : "Data/libData.a"
 		}
 	],
 	"backtrace" : 1,
@@ -11,11 +11,13 @@
 	{
 		"commands" : 
 		[
-			"add_library"
+			"add_library",
+			"add_compile_definitions"
 		],
 		"files" : 
 		[
-			"Cadastro/CMakeLists.txt"
+			"Data/CMakeLists.txt",
+			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -27,6 +29,15 @@
 				"file" : 0,
 				"line" : 1,
 				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 2
 			}
 		]
 	},
@@ -39,6 +50,17 @@
 					"fragment" : "-g"
 				}
 			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "numeroDeCaracteresMax=24"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "numeroDeUsuariosMax=1024"
+				}
+			],
 			"language" : "C",
 			"sourceIndexes" : 
 			[
@@ -46,13 +68,13 @@
 			]
 		}
 	],
-	"id" : "Cadastro::@50da2364cff7be4b2570",
-	"name" : "Cadastro",
-	"nameOnDisk" : "libCadastro.a",
+	"id" : "Data::@09b3a79b25e34167f695",
+	"name" : "Data",
+	"nameOnDisk" : "libData.a",
 	"paths" : 
 	{
-		"build" : "Cadastro",
-		"source" : "Cadastro"
+		"build" : "Data",
+		"source" : "Data"
 	},
 	"sourceGroups" : 
 	[
@@ -69,7 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Cadastro/Cadastro.c",
+			"path" : "Data/Database.c",
 			"sourceGroupIndex" : 0
 		}
 	],

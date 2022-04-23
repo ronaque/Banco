@@ -1,0 +1,2 @@
+C:/MinGW/bin/ar.exe qc libBanco.a CMakeFiles/Banco.dir/Banco.c.obj
+C:/MinGW/bin/ranlib.exe libBanco.a

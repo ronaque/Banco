@@ -20,6 +20,9 @@ Banco_BINARY_DIR:STATIC=C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Progra
 //Value Computed by CMake
 Banco_IS_TOP_LEVEL:STATIC=ON
 
+//Dependencies for the target
+Banco_LIB_DEPENDS:STATIC=general;Cadastro;general;Tratamentos;general;Data;
+
 //Value Computed by CMake
 Banco_SOURCE_DIR:STATIC=C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco
 
@@ -375,7 +378,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

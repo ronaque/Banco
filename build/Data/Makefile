@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/CMakeFiles C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/CMakeFiles C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/Data//CMakeFiles/progress.marks
+	cd C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Data/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Data/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,94 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Data/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Data/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Banco
+# Convenience name for target.
+Data/CMakeFiles/Data.dir/rule:
+	cd C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Data/CMakeFiles/Data.dir/rule
+.PHONY : Data/CMakeFiles/Data.dir/rule
 
-# Build rule for target.
-Banco: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Banco
-.PHONY : Banco
-
-# fast build rule for target.
-Banco/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Banco.dir/build.make CMakeFiles/Banco.dir/build
-.PHONY : Banco/fast
-
-#=============================================================================
-# Target rules for targets named Cadastro
-
-# Build rule for target.
-Cadastro: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Cadastro
-.PHONY : Cadastro
-
-# fast build rule for target.
-Cadastro/fast:
-	$(MAKE) $(MAKESILENT) -f Cadastro/CMakeFiles/Cadastro.dir/build.make Cadastro/CMakeFiles/Cadastro.dir/build
-.PHONY : Cadastro/fast
-
-#=============================================================================
-# Target rules for targets named Tratamentos
-
-# Build rule for target.
-Tratamentos: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tratamentos
-.PHONY : Tratamentos
-
-# fast build rule for target.
-Tratamentos/fast:
-	$(MAKE) $(MAKESILENT) -f Tratamentos/CMakeFiles/Tratamentos.dir/build.make Tratamentos/CMakeFiles/Tratamentos.dir/build
-.PHONY : Tratamentos/fast
-
-#=============================================================================
-# Target rules for targets named Data
-
-# Build rule for target.
-Data: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Data
+# Convenience name for target.
+Data: Data/CMakeFiles/Data.dir/rule
 .PHONY : Data
 
 # fast build rule for target.
 Data/fast:
-	$(MAKE) $(MAKESILENT) -f Data/CMakeFiles/Data.dir/build.make Data/CMakeFiles/Data.dir/build
+	cd C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build && $(MAKE) $(MAKESILENT) -f Data/CMakeFiles/Data.dir/build.make Data/CMakeFiles/Data.dir/build
 .PHONY : Data/fast
 
-Banco.obj: Banco.c.obj
-.PHONY : Banco.obj
+Database.obj: Database.c.obj
+.PHONY : Database.obj
 
 # target to build an object file
-Banco.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Banco.dir/build.make CMakeFiles/Banco.dir/Banco.c.obj
-.PHONY : Banco.c.obj
+Database.c.obj:
+	cd C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build && $(MAKE) $(MAKESILENT) -f Data/CMakeFiles/Data.dir/build.make Data/CMakeFiles/Data.dir/Database.c.obj
+.PHONY : Database.c.obj
 
-Banco.i: Banco.c.i
-.PHONY : Banco.i
+Database.i: Database.c.i
+.PHONY : Database.i
 
 # target to preprocess a source file
-Banco.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Banco.dir/build.make CMakeFiles/Banco.dir/Banco.c.i
-.PHONY : Banco.c.i
+Database.c.i:
+	cd C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build && $(MAKE) $(MAKESILENT) -f Data/CMakeFiles/Data.dir/build.make Data/CMakeFiles/Data.dir/Database.c.i
+.PHONY : Database.c.i
 
-Banco.s: Banco.c.s
-.PHONY : Banco.s
+Database.s: Database.c.s
+.PHONY : Database.s
 
 # target to generate assembly for a file
-Banco.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Banco.dir/build.make CMakeFiles/Banco.dir/Banco.c.s
-.PHONY : Banco.c.s
+Database.c.s:
+	cd C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build && $(MAKE) $(MAKESILENT) -f Data/CMakeFiles/Data.dir/build.make Data/CMakeFiles/Data.dir/Database.c.s
+.PHONY : Database.c.s
 
 # Help Target
 help:
@@ -200,13 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Banco"
-	@echo "... Cadastro"
 	@echo "... Data"
-	@echo "... Tratamentos"
-	@echo "... Banco.obj"
-	@echo "... Banco.i"
-	@echo "... Banco.s"
+	@echo "... Database.obj"
+	@echo "... Database.i"
+	@echo "... Database.s"
 .PHONY : help
 
 
@@ -218,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

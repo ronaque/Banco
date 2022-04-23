@@ -7,3 +7,6 @@ C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/Cada
 C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/Tratamentos/CMakeFiles/Tratamentos.dir
 C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/Tratamentos/CMakeFiles/edit_cache.dir
 C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/Tratamentos/CMakeFiles/rebuild_cache.dir
+C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/Data/CMakeFiles/Data.dir
+C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/Data/CMakeFiles/edit_cache.dir
+C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/Data/CMakeFiles/rebuild_cache.dir

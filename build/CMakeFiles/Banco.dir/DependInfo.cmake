@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/Cadastro/CMakeFiles/Cadastro.dir/DependInfo.cmake"
   "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/Tratamentos/CMakeFiles/Tratamentos.dir/DependInfo.cmake"
+  "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/Data/CMakeFiles/Data.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

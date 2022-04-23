@@ -1,17 +1,22 @@
 [
 {
   "directory": "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build",
-  "command": "C:/MinGW/bin/gcc.exe  @CMakeFiles/Banco.dir/includes_C.rsp -g -o CMakeFiles/Banco.dir/Banco.c.obj -c C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Banco.c",
+  "command": "C:/MinGW/bin/gcc.exe -DnumeroDeCaracteresMax=24 -DnumeroDeUsuariosMax=1024 @CMakeFiles/Banco.dir/includes_C.rsp -g -o CMakeFiles/Banco.dir/Banco.c.obj -c C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Banco.c",
   "file": "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Banco.c"
 },
 {
   "directory": "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/Cadastro",
-  "command": "C:/MinGW/bin/gcc.exe   -g -o CMakeFiles/Cadastro.dir/Cadastro.c.obj -c C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Cadastro/Cadastro.c",
+  "command": "C:/MinGW/bin/gcc.exe -DnumeroDeCaracteresMax=24 -DnumeroDeUsuariosMax=1024  -g -o CMakeFiles/Cadastro.dir/Cadastro.c.obj -c C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Cadastro/Cadastro.c",
   "file": "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Cadastro/Cadastro.c"
 },
 {
   "directory": "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/Tratamentos",
-  "command": "C:/MinGW/bin/gcc.exe   -g -o CMakeFiles/Tratamentos.dir/Tratamentos.c.obj -c C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Tratamentos/Tratamentos.c",
+  "command": "C:/MinGW/bin/gcc.exe -DnumeroDeCaracteresMax=24 -DnumeroDeUsuariosMax=1024  -g -o CMakeFiles/Tratamentos.dir/Tratamentos.c.obj -c C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Tratamentos/Tratamentos.c",
   "file": "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Tratamentos/Tratamentos.c"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/Data",
+  "command": "C:/MinGW/bin/gcc.exe -DnumeroDeCaracteresMax=24 -DnumeroDeUsuariosMax=1024  -g -o CMakeFiles/Data.dir/Database.c.obj -c C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Data/Database.c",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Data/Database.c"
 }
 ]

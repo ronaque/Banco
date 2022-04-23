@@ -26,6 +26,18 @@
 			"value" : "ON"
 		},
 		{
+			"name" : "Banco_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;Cadastro;general;Tratamentos;general;Data;"
+		},
+		{
 			"name" : "Banco_SOURCE_DIR",
 			"properties" : 
 			[
@@ -847,7 +859,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "4"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
