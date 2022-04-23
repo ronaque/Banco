@@ -13,6 +13,7 @@
 
 char*** carregaDatabase(FILE *arquivoDatabase)
 {
+    //Database de retorno
     char database[numeroDeUsuariosMax][2][numeroDeCaracteresMax];
 
     char usuario[numeroDeCaracteresMax];
@@ -27,6 +28,7 @@ char*** carregaDatabase(FILE *arquivoDatabase)
         return NULL;
     }
 
+    //Escaneio do arquivo recebendo o usuario e sua senha a cada linha
     while(fscanf(arquivoDatabase, "%s %s", usuario, senha) != EOF){
         printf("Entrei na linha %d, usuário: %s, senha: %s\n", index, usuario, senha);
         strcpy(database[index][0], usuario);
@@ -35,7 +37,5 @@ char*** carregaDatabase(FILE *arquivoDatabase)
         index++;
     }
 
-
-    exit:
     return database;
 }
