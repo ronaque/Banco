@@ -25,7 +25,11 @@ Data/CMakeFiles/Data.dir/Database.c.obj: ../Data/Database.c \
   C:/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
   C:/MinGW/x86_64-w64-mingw32/include/malloc.h \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
-  C:/MinGW/x86_64-w64-mingw32/include/errno.h
+  C:/MinGW/x86_64-w64-mingw32/include/errno.h \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h \
+  C:/MinGW/x86_64-w64-mingw32/include/stdint.h \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
+  C:/MinGW/x86_64-w64-mingw32/include/stddef.h
 
 
 ../Data/Database.c:
@@ -35,6 +39,8 @@ Data/CMakeFiles/Data.dir/Database.c.obj: ../Data/Database.c \
 C:/MinGW/x86_64-w64-mingw32/include/stdio.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
+
+C:/MinGW/x86_64-w64-mingw32/include/stddef.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/corecrt.h:
 
@@ -77,3 +83,9 @@ C:/MinGW/x86_64-w64-mingw32/include/limits.h:
 C:/MinGW/x86_64-w64-mingw32/include/malloc.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/errno.h:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h:
+
+C:/MinGW/x86_64-w64-mingw32/include/stdint.h:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h:

@@ -23,4 +23,8 @@ Data/CMakeFiles/Data.dir/Database.c.obj: \
  c:\mingw\x86_64-w64-mingw32\include\sec_api\stdlib_s.h \
  c:\mingw\x86_64-w64-mingw32\include\malloc.h \
  c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\mm_malloc.h \
- c:\mingw\x86_64-w64-mingw32\include\errno.h
+ c:\mingw\x86_64-w64-mingw32\include\errno.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdint.h \
+ c:\mingw\x86_64-w64-mingw32\include\stdint.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stddef.h \
+ c:\mingw\x86_64-w64-mingw32\include\stddef.h

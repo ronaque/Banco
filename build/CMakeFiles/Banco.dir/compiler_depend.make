@@ -29,7 +29,11 @@ CMakeFiles/Banco.dir/Banco.c.obj: ../Banco.c \
   ../Banco.h \
   ../Cadastro/Cadastro.h \
   ../Tratamentos/Tratamentos.h \
-  ../Data/Database.h
+  ../Data/Database.h \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h \
+  C:/MinGW/x86_64-w64-mingw32/include/stdint.h \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
+  C:/MinGW/x86_64-w64-mingw32/include/stddef.h
 
 
 C:/MinGW/x86_64-w64-mingw32/include/vadefs.h:
@@ -41,6 +45,8 @@ C:/MinGW/x86_64-w64-mingw32/include/vadefs.h:
 C:/MinGW/x86_64-w64-mingw32/include/stdio.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
+
+C:/MinGW/x86_64-w64-mingw32/include/stddef.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/corecrt.h:
 
@@ -82,6 +88,8 @@ C:/MinGW/x86_64-w64-mingw32/include/errno.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h:
 
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h:
+
 C:/MinGW/x86_64-w64-mingw32/include/ctype.h:
 
 ../Banco.h:
@@ -89,3 +97,7 @@ C:/MinGW/x86_64-w64-mingw32/include/ctype.h:
 ../Cadastro/Cadastro.h:
 
 ../Tratamentos/Tratamentos.h:
+
+C:/MinGW/x86_64-w64-mingw32/include/stdint.h:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h:

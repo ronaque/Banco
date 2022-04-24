@@ -27,4 +27,8 @@ CMakeFiles/Banco.dir/Banco.c.obj: \
  C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Banco.h \
  C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Cadastro/Cadastro.h \
  C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Tratamentos/Tratamentos.h \
- C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Data/Database.h
+ C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Data/Database.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdint.h \
+ c:\mingw\x86_64-w64-mingw32\include\stdint.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stddef.h \
+ c:\mingw\x86_64-w64-mingw32\include\stddef.h

@@ -27,4 +27,8 @@ Data/CMakeFiles/Data.dir/Database.c.obj
  C:/MinGW/x86_64-w64-mingw32/include/malloc.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h
  C:/MinGW/x86_64-w64-mingw32/include/errno.h
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h
+ C:/MinGW/x86_64-w64-mingw32/include/stdint.h
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h
+ C:/MinGW/x86_64-w64-mingw32/include/stddef.h
 
