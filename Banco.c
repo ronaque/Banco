@@ -20,9 +20,11 @@ FILE *arquivoDatabase;
 
 int main(int argc, char const *argv[])
 {
-    
+
+    BancoDeDados bancoDeDadosPrincipal;
     //Carregamento do banco de dados do arquivo
-    database = carregaDatabase(arquivoDatabase);
+    bancoDeDadosPrincipal = carregaDatabase(arquivoDatabase);
+    printf("main: %s %s\n", bancoDeDadosPrincipal.database[0][0], bancoDeDadosPrincipal.database[0][1]);
 
     //Contadores
     // int i = 0;

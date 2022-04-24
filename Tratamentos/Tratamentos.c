@@ -12,13 +12,13 @@
 
 char *retirarEnter(char *string)
 {
-    int i = 0;
-    for (i; i < strlen(string); i++)
-    {
-        if (string[i] == '\n')
-        {
-            string[i] = '\0';
-        }
-    }
-    return string;
+    // int i = 0;
+    // for (i; i < strlen(string); i++)
+    // {
+    //     if (string[i] == '\n')
+    //     {
+    //         string[i] = '\0';
+    //     }
+    // }
+    // return string;
 }

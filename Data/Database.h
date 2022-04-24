@@ -12,11 +12,18 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <stdint.h>
+
+typedef struct BancoDeDados
+{
+    char database[numeroDeUsuariosMax][2][numeroDeCaracteresMax];
+} BancoDeDados;
 
 /**
  * @brief Função que carrega os dados do arquivo dentro da matriz de dados.
  * 
  * @param arquivoDatabase Arquivo que carrega os dados
- * @return char*** Matriz com os dados carregados
+ * @return BancoDeDados Estrutura que carrega a matriz com os dados carregados
+ * Caso haja algum erro no carregamento dos dados, a primeira posição da matriz retornará com uma string "NULL"
  */
-char*** carregaDatabase(FILE *arquivoDatabase);
+BancoDeDados carregaDatabase(FILE *arquivoDatabase);

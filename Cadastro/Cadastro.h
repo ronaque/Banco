@@ -13,12 +13,6 @@
 #include <string.h>
 #include <ctype.h>
 
-#define KByte 1024
-
-//Database capaz de armazenar 1024 usuários
-//Primeira coluna guarda o nome do usuário, e a segunda coluna guarda a senha
-char* database[KByte][2] = {NULL};
-
 /**
  * @brief Função de cadastro de um novo usuário adicionando à database
  * 
