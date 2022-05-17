@@ -96,6 +96,7 @@ Banco.exe: CMakeFiles/Banco.dir/build.make
 Banco.exe: Cadastro/libCadastro.a
 Banco.exe: Tratamentos/libTratamentos.a
 Banco.exe: Data/libData.a
+Banco.exe: C:/Program\ Files/MySQL/MySQL\ Server\ 8.0/lib/mysqlclient.lib
 Banco.exe: CMakeFiles/Banco.dir/linklibs.rsp
 Banco.exe: CMakeFiles/Banco.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Banco.exe"

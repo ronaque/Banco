@@ -16,7 +16,8 @@
 			"add_executable",
 			"target_link_libraries",
 			"add_compile_definitions",
-			"target_include_directories"
+			"target_include_directories",
+			"include_directories"
 		],
 		"files" : 
 		[
@@ -30,13 +31,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 12,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 23,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
@@ -48,7 +49,13 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 29,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 42,
 				"parent" : 0
 			}
 		]
@@ -90,6 +97,10 @@
 				{
 					"backtrace" : 4,
 					"path" : "C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/Data"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Program Files/MySQL/MySQL Server 8.0/include"
 				}
 			],
 			"language" : "C",
@@ -103,15 +114,15 @@
 	[
 		{
 			"backtrace" : 2,
+			"id" : "Data::@09b3a79b25e34167f695"
+		},
+		{
+			"backtrace" : 2,
 			"id" : "Cadastro::@50da2364cff7be4b2570"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "Tratamentos::@473a0e802f48dc3e6d6c"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "Data::@09b3a79b25e34167f695"
 		}
 	],
 	"id" : "Banco::@6890427a1f51a3e7e1df",
@@ -140,6 +151,11 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "Data/libData.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "\"C:/Program Files/MySQL/MySQL Server 8.0/lib/mysqlclient.lib\"",
 				"role" : "libraries"
 			},
 			{

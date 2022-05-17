@@ -8,6 +8,9 @@ add_compile_definitions(numeroDeCaracteresMax=24
                         numeroDeUsuariosMax=1024
 )
 
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
+find_package(MySQL)
+
 # Criação do executável do programa banco
 add_executable(Banco Banco.c)
 
@@ -23,7 +26,9 @@ add_subdirectory(Data)
 target_link_libraries(Banco PUBLIC 
                         Cadastro
                         Tratamentos
-                        Data)           
+                        Data
+                        ${MySQL_LIB}
+                        )           
 
 #Adiciona a árove binária para a procura de caminhos de arquivos
 target_include_directories(Banco
@@ -31,4 +36,7 @@ target_include_directories(Banco
                             ${PROJECT_BINARY_DIR}
                             ${Banco_root}/Cadastro
                             ${Banco_root}/Tratamentos
-                            ${Banco_root}/Data)           
+                            ${Banco_root}/Data
+                            )     
+
+include_directories(${MySQL_INCLUDE_DIR})

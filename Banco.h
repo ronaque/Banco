@@ -13,3 +13,4 @@
 #include "Cadastro.h"
 #include "Tratamentos.h"
 #include "Database.h"
+#include <mysql.h>

@@ -11,6 +11,7 @@
 
 #include "Database.h"
 
+
 BancoDeDados carregaDatabase(FILE *arquivoDatabase)
 {
     //Database de retorno
@@ -35,10 +36,8 @@ BancoDeDados carregaDatabase(FILE *arquivoDatabase)
 
     //Escaneio do arquivo recebendo o usuario e sua senha a cada linha
     while(fscanf(arquivoDatabase, "%s %s", usuario, senha) != EOF){
-        // printf("Entrei na linha %d, usuário: %s, senha: %s\n", index, usuario, senha);
         strcpy(bancoDeDados.database[index][0], usuario);
         strcpy(bancoDeDados.database[index][1], senha);
-        // printf("%s %s\n", bancoDeDados.database[index][0], bancoDeDados.database[index][1]);
         index++;
     }
 

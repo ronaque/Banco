@@ -13,6 +13,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdint.h>
+#include "mysql.h"
 
 typedef struct BancoDeDados
 {
