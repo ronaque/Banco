@@ -114,15 +114,15 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "Data::@09b3a79b25e34167f695"
-		},
-		{
-			"backtrace" : 2,
 			"id" : "Cadastro::@50da2364cff7be4b2570"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "Tratamentos::@473a0e802f48dc3e6d6c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Data::@09b3a79b25e34167f695"
 		}
 	],
 	"id" : "Banco::@6890427a1f51a3e7e1df",

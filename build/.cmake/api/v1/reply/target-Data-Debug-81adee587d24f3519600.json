@@ -12,7 +12,8 @@
 		"commands" : 
 		[
 			"add_library",
-			"add_compile_definitions"
+			"add_compile_definitions",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -38,6 +39,12 @@
 				"file" : 1,
 				"line" : 7,
 				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
 			}
 		]
 	},
@@ -59,6 +66,13 @@
 				{
 					"backtrace" : 3,
 					"define" : "numeroDeUsuariosMax=1024"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Program Files/MySQL/MySQL Server 8.0/include"
 				}
 			],
 			"language" : "C",

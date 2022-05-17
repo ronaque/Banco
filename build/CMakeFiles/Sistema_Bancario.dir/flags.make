@@ -4,7 +4,7 @@
 # compile C with C:/MinGW/bin/gcc.exe
 C_DEFINES = -DnumeroDeCaracteresMax=24 -DnumeroDeUsuariosMax=1024
 
-C_INCLUDES = @CMakeFiles/Data.dir/includes_C.rsp
+C_INCLUDES = @CMakeFiles/Sistema_Bancario.dir/includes_C.rsp
 
 C_FLAGS = -g
 

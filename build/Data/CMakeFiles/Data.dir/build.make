@@ -70,6 +70,7 @@ include Data/CMakeFiles/Data.dir/progress.make
 include Data/CMakeFiles/Data.dir/flags.make
 
 Data/CMakeFiles/Data.dir/Database.c.obj: Data/CMakeFiles/Data.dir/flags.make
+Data/CMakeFiles/Data.dir/Database.c.obj: Data/CMakeFiles/Data.dir/includes_C.rsp
 Data/CMakeFiles/Data.dir/Database.c.obj: ../Data/Database.c
 Data/CMakeFiles/Data.dir/Database.c.obj: Data/CMakeFiles/Data.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Data/CMakeFiles/Data.dir/Database.c.obj"

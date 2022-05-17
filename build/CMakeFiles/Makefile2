@@ -131,9 +131,9 @@ Tratamentos/clean: Tratamentos/CMakeFiles/Tratamentos.dir/clean
 # Target rules for target CMakeFiles/Banco.dir
 
 # All Build rule for target.
-CMakeFiles/Banco.dir/all: Data/CMakeFiles/Data.dir/all
 CMakeFiles/Banco.dir/all: Cadastro/CMakeFiles/Cadastro.dir/all
 CMakeFiles/Banco.dir/all: Tratamentos/CMakeFiles/Tratamentos.dir/all
+CMakeFiles/Banco.dir/all: Data/CMakeFiles/Data.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Banco.dir/build.make CMakeFiles/Banco.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Banco.dir/build.make CMakeFiles/Banco.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/isaqu/Documents/Escolaridade/Projetos_de_Programacao/C/Banco/build/CMakeFiles --progress-num=1,2 "Built target Banco"
